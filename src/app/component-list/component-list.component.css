@@ -1,0 +1,15 @@
+.list-title {
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #212121;
+}
+.list-category {
+    font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #898989;
+}
+.content {
+    padding-left: 10px;
+}
