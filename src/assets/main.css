@@ -1,0 +1,70 @@
+@import './base.css';
+
+#app {
+  max-width: 100%;
+  font-weight: normal;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.contianerElectric {
+  height: auto;
+  background-position: cover;
+  background-image: url("../assets/imageOne.png");
+}
+.contianerFloadable {
+  height: auto;
+  background-position: cover;
+  background-image: url("../assets/imageTwo.png");
+}
+.contianerCycle {
+  height: auto;
+  background-position: cover;
+  background-image: url("../assets/imageThird.png");
+}
+.priceContainer {
+  margin-top: 40px;
+}
+.floadbalePriceContainer {
+  margin-top: 60px;
+}
+.paddingInside {
+  padding: 50px 0px 15px 30px;
+}
+.title {
+  font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #CECECE;
+}
+.description {
+  font-weight: 600;
+font-size: 26px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+}
+.price {
+  font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.delPrice {
+  text-decoration: line-through;
+  font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+color: #868383;
+}
+.btnBuy {
+  border: 1px solid white;
+  color: white;
+}
+.btnBuy:hover {
+  border: 1px solid white;
+  color: balck;
+  background-color: white;
+}
